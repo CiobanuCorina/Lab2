@@ -33,8 +33,8 @@ public class Plante {
         return this.family;
     }
 
-
-    public String print()
+    @Override
+    public String toString()
     {
         return "Division: " + this.division + "\n" +
                 "Class: " + this.plantClass + "\n" +

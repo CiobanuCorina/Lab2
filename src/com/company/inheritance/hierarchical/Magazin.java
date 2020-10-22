@@ -1,10 +1,12 @@
 package com.company.inheritance.hierarchical;
 
 public class Magazin {
+
     private String denumire;
     private String prorietar;
     private int anulInfiintarii;
-    private String locatia;
+    private String locatia
+            ;
     public Magazin(String denumire, String prorietar, int anulInfiintarii, String locatia)
     {
         this.denumire = denumire;
@@ -34,7 +36,7 @@ public class Magazin {
     }
 
 
-    public String print()
+    public String toString()
     {
         return "Denumire: " + this.denumire + "\n" +
                 "Proprietar: " + this.prorietar + "\n" +

@@ -12,8 +12,6 @@ public class Haine {
         this.material = material;
     }
 
-
-
     public String getModel()
     {
         return this.model;
@@ -29,9 +27,8 @@ public class Haine {
         return this.material;
     }
 
-
-
-    public String print()
+    @Override
+    public String toString()
     {
         return "Model: " + this.model + "\n" +
                 "Marime: " + this.marime + "\n" +

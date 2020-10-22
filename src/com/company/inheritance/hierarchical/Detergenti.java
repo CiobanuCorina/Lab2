@@ -14,9 +14,9 @@ public class Detergenti extends Magazin{
     }
 
     @Override
-    public String print()
+    public String toString()
     {
-        return super.print() + "Sfera de utilizare: " + this.sferaUtilizare;
+        return super.toString() + "Sfera de utilizare: " + this.sferaUtilizare;
     }
 
     public String print(String message)

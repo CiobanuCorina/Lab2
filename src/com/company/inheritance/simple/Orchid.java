@@ -21,9 +21,9 @@ public class Orchid extends Plante{
     }
 
     @Override
-    public String print()
+    public String toString()
     {
-        return super.print() + "Genus: " + this.genus + "\n" +
+        return super.toString() + "Genus: " + this.genus + "\n" +
                 "Pollination: " + this.pollination;
     }
 

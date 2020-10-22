@@ -1,8 +1,10 @@
 package com.company.inheritance.hierarchical;
 
 public class Lactate extends Magazin{
+
     private String dataExpirarii;
     private String producator;
+
     public Lactate(String denumire,
                    String proprietar,
                    int anulInfiintarii,
@@ -26,9 +28,9 @@ public class Lactate extends Magazin{
     }
 
     @Override
-    public String print()
+    public String toString()
     {
-        return super.print() + "Data expirarii: " + this.dataExpirarii + "\n" +
+        return super.toString() + "Data expirarii: " + this.dataExpirarii + "\n" +
                 "Producator: " + this.producator;
     }
 

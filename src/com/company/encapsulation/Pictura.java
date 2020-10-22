@@ -32,7 +32,7 @@ public class Pictura {
     }
 
 
-    public String print()
+    public String toString()
     {
         return "Denumire: " + this.denumire + "\n" +
                 "Auutor: " + this.autor + "\n" +
